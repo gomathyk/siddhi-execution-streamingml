@@ -99,7 +99,7 @@ import java.util.Map;
                                 "closestCentroidCoordinate2,...closestCentroidCoordinateD," +
                                 " which are the d dimensional coordinates of the closest " +
                                 "centroid from the model to the current event. This is the prediction result and " +
-                                "this represents the cluster to which the current event belongs.",
+                                "represents the cluster to which the current event belongs.",
                         type = {DataType.DOUBLE}
                 )
         },

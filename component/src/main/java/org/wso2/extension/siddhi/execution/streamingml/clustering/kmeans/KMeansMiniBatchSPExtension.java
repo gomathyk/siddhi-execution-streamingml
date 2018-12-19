@@ -127,7 +127,7 @@ import java.util.concurrent.ExecutorService;
                                 "insert into OutputStream;",
                         description = "This is an example where user has given all the three hyper parameters. " +
                                 "The first 20 events are consumed to build the model and the prediction " +
-                                "starts from the 21st event "
+                                "starts from the 21st event. "
 
                 ),
                 @Example(
@@ -136,7 +136,7 @@ import java.util.concurrent.ExecutorService;
                                 "from InputStream#streamingml:kMeansMiniBatch(2, x, y)\n" +
                                 "select closestCentroidCoordinate1, closestCentroidCoordinate2, x, y\n" +
                                 "insert into OutputStream;",
-                        description = "This is an example where user has not specified any hyper param, hence " +
+                        description = "This is an example where user has not specified any hyper params, hence " +
                                 "the default values are used."
                 )
         }
